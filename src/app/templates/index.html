@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+	<h1>Hi {{ current_user.username }}</h1>
+   {% if projects %}
+      {% for project in projects %}
+         <div>
+            <p>{{ project.name }} - {{ project.client }}</p>
+            <p>{{ project.description }}</p>
+         </div>
+      {% endfor %}
+   {% endif %}
+
+{% endblock %}

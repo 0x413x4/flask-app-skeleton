@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+*.swp
+*.db
+.vagrant/*
+ubuntu-bionic-18.04-cloudimg-console.log
+.vscode
