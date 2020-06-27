@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo '=================================================='
-echo '=                Project Mongoose                ='
+echo '=                  app_skeleton                  ='
 echo '=================================================='
 echo 'Start provisioning...'
 
