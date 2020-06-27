@@ -25,6 +25,11 @@ apt-get update
 # Install python dependencies
 pip3 install -r requirements.txt
 
+# Intialise database
+flask db init
+flask db migrate
+flask db upgrade
+
 # Install tools
 # TODO
 
