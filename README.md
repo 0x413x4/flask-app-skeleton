@@ -1,6 +1,7 @@
 # App Skeleton
+This project is a skeleton to quickly create Flask applications. It implments a number of functionalities, including user registration and profiles, error handling, as has a menu to get you started.
 
-Skeleton for Flask application.
+The code was adapted from the outstandingly good Flask Mega-Tutorial by Michael Grinberg, available [here](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
 
 Features implemented:
 - Base for error handling
@@ -10,7 +11,6 @@ Features implemented:
 
 TODO:
 - Password recovery
-- Move users to email based auth
 
 ## How to start
 
