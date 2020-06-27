@@ -27,7 +27,7 @@ $ cd flask-app-skeleton && rm -rf .git
 $ grep -rliI app-skeleton * .* | xargs sed -i 's/app-skeleton/my-new-app/g'
 ```
 
-Don't forget to change the name of the app file `app-skeleton.py`
+Don't forget to change the name of the app file `./src/app-skeleton.py`
 
 3. Start the test server
 
